@@ -1,0 +1,29 @@
+2026-05-07 16:36:22,889 - INFO - Starting fetch_api process
+2026-05-07 16:36:22,889 - INFO - Timestamp: 2026-05-07_16-36-22
+2026-05-07 16:36:22,890 - INFO - Data directory: .claude\skills\fetch_api\data\2026-05-07_16-36-22
+2026-05-07 16:36:22,891 - INFO - Logs directory: .claude\skills\fetch_api\logs\2026-05-07_16-36-22
+2026-05-07 16:36:23,970 - INFO - API call initiated: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_customer.csv
+2026-05-07 16:36:23,989 - INFO - API call initiated: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_store.csv
+2026-05-07 16:36:23,990 - INFO - API call initiated: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_date.csv
+2026-05-07 16:36:23,990 - INFO - API call initiated: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_product.csv
+2026-05-07 16:36:23,991 - INFO - API call initiated: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_sales.csv
+2026-05-07 16:36:23,991 - INFO - API call initiated: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_returns.csv
+2026-05-07 16:36:24,249 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_date.csv "HTTP/1.1 200 OK"
+2026-05-07 16:36:24,252 - INFO - API call successful: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_date.csv
+2026-05-07 16:36:24,253 - INFO - Data successfully stored: .claude\skills\fetch_api\data\2026-05-07_16-36-22\dim_date.csv
+2026-05-07 16:36:24,255 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_returns.csv "HTTP/1.1 200 OK"
+2026-05-07 16:36:24,256 - INFO - API call successful: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_returns.csv
+2026-05-07 16:36:24,257 - INFO - Data successfully stored: .claude\skills\fetch_api\data\2026-05-07_16-36-22\fact_returns.csv
+2026-05-07 16:36:24,258 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_store.csv "HTTP/1.1 200 OK"
+2026-05-07 16:36:24,258 - INFO - API call successful: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_store.csv
+2026-05-07 16:36:24,261 - INFO - Data successfully stored: .claude\skills\fetch_api\data\2026-05-07_16-36-22\dim_store.csv
+2026-05-07 16:36:24,263 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_customer.csv "HTTP/1.1 200 OK"
+2026-05-07 16:36:24,264 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_product.csv "HTTP/1.1 200 OK"
+2026-05-07 16:36:24,265 - INFO - API call successful: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_customer.csv
+2026-05-07 16:36:24,265 - INFO - Data successfully stored: .claude\skills\fetch_api\data\2026-05-07_16-36-22\dim_customer.csv
+2026-05-07 16:36:24,266 - INFO - API call successful: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/dim_product.csv
+2026-05-07 16:36:24,266 - INFO - Data successfully stored: .claude\skills\fetch_api\data\2026-05-07_16-36-22\dim_product.csv
+2026-05-07 16:36:24,309 - INFO - HTTP Request: GET https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_sales.csv "HTTP/1.1 200 OK"
+2026-05-07 16:36:24,352 - INFO - API call successful: https://raw.githubusercontent.com/anshlambagit/AnshLambaYoutube/refs/heads/main/DBT_Masterclass/fact_sales.csv
+2026-05-07 16:36:24,355 - INFO - Data successfully stored: .claude\skills\fetch_api\data\2026-05-07_16-36-22\fact_sales.csv
+2026-05-07 16:36:24,356 - INFO - Process completed successfully. 6 files fetched and saved.

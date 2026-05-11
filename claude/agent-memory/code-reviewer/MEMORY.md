@@ -1,0 +1,1 @@
+- [Code Review Standards](code_review_standards.md) — Python data engineering project follows strict CLAUDE.md conventions

@@ -1,0 +1,12 @@
+2026-05-09 01:47:25,943 - INFO - Starting orchestration pipeline
+2026-05-09 01:47:25,946 - INFO - Timestamp: 2026-05-09_01-47-25
+2026-05-09 01:47:25,946 - INFO - Log directory: .claude\orchestrator\logs\2026-05-09_01-47-25
+2026-05-09 01:47:25,946 - INFO - ============================================================
+2026-05-09 01:47:25,946 - INFO - STEP 1: Running fetch_api skill...
+2026-05-09 01:47:25,946 - INFO - ============================================================
+2026-05-09 01:47:28,403 - INFO - fetch_api completed successfully
+2026-05-09 01:47:28,404 - INFO - ============================================================
+2026-05-09 01:47:28,404 - INFO - STEP 2: Running migrate skill...
+2026-05-09 01:47:28,405 - INFO - ============================================================
+2026-05-09 01:47:28,517 - ERROR - migrate failed with exit code 1
+2026-05-09 01:47:28,518 - ERROR - Orchestration pipeline failed at migrate step

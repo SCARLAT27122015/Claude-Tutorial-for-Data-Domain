@@ -1,0 +1,30 @@
+{
+  "enabledMcpjsonServers": ["ddg-search"],
+  "permissions": {
+    "allow": ["mcp__*"]
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/pre_script.py",
+            "statusMessage": "Running pre-script..."
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python .claude/hooks/post_script.py",
+            "statusMessage": "Running post-script..."
+          }
+        ]
+      }
+    ]
+  }
+}
