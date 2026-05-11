@@ -29,8 +29,13 @@ Hooks allow for the execution of scripts based on specific events (e.g., before 
 *   **Automation Pipeline:** Built a workflow where Claude Code manages the lifecycle of a Python/PySpark script using hooks.
 *   **Context Integration:** Successfully linked local MCP servers to provide domain-specific context to the agent.
 
-IMPORTANT: Create a .env file with your anthropic API key and set the environment variable `ANTHROPIC_API_KEY` to enable the agentic features of Claude Code.
+## IMPORTANT: 
 
+Create a .env file with your anthropic API key and set the environment variable `ANTHROPIC_API_KEY` to enable the agentic features of Claude Code.
+
+## IMPORTANT 2: 
+
+In this repo you will see a "claude" folder that it should have been named as ".claude" because but GitHub was considering it as hidden folder.  If you rename it to just claude without the dot, Claude Code won't recognize it and won't load the project instructions or configuration. So keep it as .claude.
 
 ---
 
